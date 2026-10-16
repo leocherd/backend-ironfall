@@ -1,0 +1,19 @@
+{
+  "name": "ironfall-arena-colyseus-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Colyseus multiplayer server for IRONFALL ARENA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.15.0",
+    "@colyseus/ws-transport": "^0.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
